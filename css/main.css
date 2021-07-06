@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff4ea;
+}
+
+header {
+    line-height: 0px;
+    padding: 0.3em;
+    background-color: #eec39a;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header > p {
+    margin-left: 0.5em;
+}
+
+.exercise {
+    background-color: #ecdfd2;
+    margin: 1em auto;
+    padding: 1em;
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.example, .result{
+    background-color: #252430;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color: #fff4ea;
+}
+
+img {
+    width: 100%;
+}
