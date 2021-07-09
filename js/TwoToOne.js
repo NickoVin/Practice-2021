@@ -26,7 +26,7 @@ function longest(s1, s2) {
     return resultArray.join('');
 }
 
-let ResultDiv = document.getElementById("TwoToOne");
-ResultDiv.textContent += longest("aretheyhere", "yestheyarehere") + " / ";
-ResultDiv.textContent += longest("loopingisfunbutdangerous", "lessdangerousthancoding") + " / ";
-ResultDiv.textContent += longest("inmanylanguages", "theresapairoffunctions");
+let TwoToOneDiv = document.getElementById("TwoToOne");
+TwoToOneDiv.innerHTML += longest("aretheyhere", "yestheyarehere") + "<br>";
+TwoToOneDiv.innerHTML += longest("loopingisfunbutdangerous", "lessdangerousthancoding") + "<br>";
+TwoToOneDiv.innerHTML += longest("inmanylanguages", "theresapairoffunctions");
